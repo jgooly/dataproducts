@@ -11,7 +11,6 @@ global.stats <- melt(global.stats, id.vars = c('year', 'country.code', 'country.
 # define server logic required to draw a line chart
 shinyServer(function(input, output) {
     
-#     country.code.data <- reactive(global.stats %>% filter(country.code == input$countryCode))
     country.code.data <- reactive(
         global.stats[which(global.stats$country.code == input$countryCode),]
         )
