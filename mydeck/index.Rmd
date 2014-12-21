@@ -1,0 +1,54 @@
+---
+title       : Developing Data Products
+subtitle    : A quick glimpse into a simple app using Shiny
+author      : Julian Ganguli
+job         : 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+## Population and Internet Use
+
+Have you ever wondered how many people for a given country use the internet?
+I catch myself thinking about this from time to time...
+
+Example questions:
+
+* Does internet usage trend with population growth?
+* At what point will internet usage catch up to the population for a given country?
+* Which countries have have low/high populations of internet users?
+
+--- .class #id 
+
+## Why You Might Be Interested
+
+* If you are a digital marketer, you might want to know which countries to enter.
+* Make inferences regarding technological infrastructure for a given country.
+* Better understand your own website metrics.
+* And more... 
+
+--- .class #id
+
+## And The Good News Is...
+
+Now you can see how these factors change over time for *any country*!
+
+Just go to my app and enter the country code to see the results.
+
+[Population and Internet Usage App](https://julianganguli.shinyapps.io/Project/)
+
+--- .class #id
+
+## Data
+
+All the data was collected from the World Bank Organization.
+
+You can view the data source here [worldbank.org](http://www.worldbank.org/)
+
+To get a complete list of country codes visit [country.code.org](http://countrycode.org/)
+
+Thank you!
