@@ -20,8 +20,8 @@ shinyServer(function(input, output) {
             geom_point() +
             geom_line() +
             theme_bw() +
-            theme(legend.justification=c(1,0),
-                  legend.position=c(1,0),
+            theme(legend.justification=c(0, 1),
+                  legend.position=c(0, 1),
                   legend.title = element_blank(),
                   axis.title.x = element_text(size = 16),
                   axis.title.y = element_text(size = 16),
