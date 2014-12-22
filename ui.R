@@ -12,7 +12,7 @@ shinyUI(pageWithSidebar(
                     max=2013, value=c(1965, 2013), format="####"),
         
         # input country code
-        textInput("countryCode", label="Enter the country code (upper case)", value = "USA"),
+        textInput("countryCode", label="Enter the 3 letter country code (upper case)", value = "USA"),
         
         # about the app
         h3('About this app'),
